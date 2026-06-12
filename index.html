@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Agro Forte, Futuro Sustentável 🌾</h1>
+    <form id="quizForm">
+        
+        <div class="question">
+            <p>1. Qual prática ajuda a produzir alimentos e proteger o solo ao mesmo tempo?</p>
+            <label><input type="radio" name="q1" value="A"> Desmatamento total</label>
+            <label><input type="radio" name="q1" value="B"> Rotação de culturas e plantio direto</label>
+            <label><input type="radio" name="q1" value="C"> Uso excessivo de água</label>
+        </div>
+
+        <div class="question">
+            <p>2. O que caracteriza o equilíbrio entre produção e meio ambiente?</p>
+            <label><input type="radio" name="q2" value="A"> Produzir muito esgotando os recursos</label>
+            <label><input type="radio" name="q2" value="B"> Parar de produzir para preservar</label>
+            <label><input type="radio" name="q2" value="C"> Usar tecnologia para produzir mais em menos espaço</label>
+        </div>
+
+        <div class="question">
+            <p>3. Qual recurso é vital economizar na agricultura sustentável através da irrigação por gotejamento?</p>
+            <label><input type="radio" name="q3" value="A"> Água</label>
+            <label><input type="radio" name="q3" value="B"> Vento</label>
+            <label><input type="radio" name="q3" value="C"> Agrotóxicos</label>
+        </div>
+
+        <button type="button" onclick="checkAnswers()">Enviar Respostas</button>
+    </form>
+
+    <div id="result"></div>
+    
+    <div id="congratsBonus" class="congrats-container">
+        <h2>🏆 PARABÉNS! VOCÊ ACERTOU TUDO! 🏆</h2>
+        <p>Você demonstra um excelente conhecimento sobre o futuro da agricultura sustentável!</p>
+        <div class="stars">🌟🌟🌟</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
